@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Martel+Sans:wght@600&family=Poppins:wght@700&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 120vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #C4BCB3;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    border-bottom: 1px solid #222;
+}
+
+#nav h5{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 23px;
+    font-weight: 150;
+}
+
+#nav h3 i{
+    font-family: "canopee", sans-serif;
+    font-weight: 620;
+    font-size: 48px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+#nav i{
+    font-size: 25px;
+    text-align: right;
+}
+
+#elems, #elems-1{
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elem1, #elem1x{
+    width: 30%;
+    height: 100%;
+}
+
+#elem2, #elem2x{
+    width: 35%;
+    height: 100%;
+    border-right: 2px solid #595959;
+    border-left: 2px solid #595959;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+#elem3{
+    width: 30%;
+    height: 100%;
+    padding: 0 10px;
+}
+ 
+#elem1 #image-div, #elem1x #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#image-div:hover img{
+    scale: 1.1;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#elem1 h4, #elem1x h4{
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "canopee", sans-serif;
+} 
+
+#elem1 h4 span, #elem1x h4 span{
+    background-color: #B63C12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#elem1 p, #elem1x p{
+    font-size: 23px;
+    font-family: "Domaine Dis Cond Medium";
+    font-weight: 100;
+    color: #53514C;
+}
+
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "canopee", sans-serif;
+} 
+
+#elem3 h4 span{
+    background-color: #B63C12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#elem3 p{
+    font-size: 23px;
+    font-family: "Domaine Dis Cond Medium";
+    font-weight: 100;
+    color: #53514C;
+}
+
+#elem2 h2, #elem2x h2{
+    letter-spacing: 2.5px;
+    font-family: "canopee", sans-serif;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+#elem2 h3{
+    font-family: "Domaine Dis Cond Medium";
+    font-size: 50px;
+    font-weight: 100;
+    color: #31302D;
+    margin: 24px 0;
+}
+
+#elem2 h6, #elem2x h6{
+    font-family: "Domaine Dis Cond Medium";
+    font-size: 20px;
+    font-weight: 100;
+    color: #31302D;
+}
+
+#page1 h1{
+    font-size: 640px;
+    letter-spacing: -10px;
+    font-family: "canopee", sans-serif;
+    font-weight: 100;
+    background-color: #1C1C1A;
+    color: #C3BCB2;
+    line-height: 585px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 40px;
+}
+
+#page2-left{
+    height: 100%;
+    padding-right: 50px;
+    width: 35%;
+    object-fit: cover;
+    border-right: 1px solid black;
+ 
+}
+
+#page2-left img, #page2-lefto img{
+    height: 40%;
+    width: 105%;
+    border: 1px solid black;
+}
+
+#page2-left p, #page2-lefto p{
+    font-size: 34px;
+    font-family: "Domaine Dis Cond Medium";
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+
+#page2-left p span, #page2-lefto p span{
+    font-size: 84px;
+    background-color: #1C1C1A;
+    font-family: "Domaine Dis Cond Medium";
+    color: #C3BCB2;
+    margin-top: 2000px;
+}
+
+#page2-left h2{
+    font-size: 150px;
+    font-family: "canopee", sans-serif;
+    line-height: 150px;
+    font-weight: 100;
+}
+
+#page2-left h2 span{
+    font-size: 210px;
+    font-weight: 900;
+}
+
+#page2-right, #page2-righto{
+    height: 100%;
+    width: 60%;
+    padding: 0 60px;
+}
+
+#page2-right img{
+    height: 44%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#page2-right h1, #page2-righto h1{
+    font-family: "canopee", sans-serif;
+    font-size: 132px;
+    letter-spacing: -1px;
+    font-weight: 100;
+}
+
+#page3{
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #C4BCB3;
+}
+
+#page3 h1{
+    font-size: 550px;
+    font-weight: 100;
+    letter-spacing: -10px;
+    background-color: #1C1C1A;
+    width: fit-content;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 500px;
+    color: #C3BCB2;
+    font-family: "canopee", sans-serif;
+}
+
+#page3 img{
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+
+#elems-1{
+    background-color: #C4BCB3;
+    display: flex;
+    margin-left: -33%;
+    justify-content: space-around;
+    padding: 0 580px;
+}
+
+#elem1x{
+    width: 40%;
+}
+
+#elem2x{
+    border-right: 1px solid black;
+}
+
+#elem2x h3{
+    font-family: "Domaine Dis Cond Medium";
+    font-size: 45px;
+    font-weight: 150;
+    color: #31302D;
+    margin: 24px 0;
+}
+
+#page2-lefto{
+    height: 100%;
+    padding-right: 50px;
+    width: 35%;
+    object-fit: cover;
+    padding: 0 40px;
+    border: none;
+}
+
+#page2-righto img{
+    height: 130vh;
+    width: 100vh;
+    object-fit: cover;
+    border: none;
+    margin-left: -6%;
+    padding: 38px 0;
+}
+
+
+#page2-lefto h2{
+    font-size: 100px;
+    font-family: "canopee", sans-serif;
+    line-height: 150px;
+    font-weight: 100;
+}
+
+#page2-lefto h2 span {
+    font-size: 150px;
+    font-weight: 900;
+}
+
+#page2-lefto #anda{
+    height: 180px;
+    background-color: #C3BCB2;
+    border: 1px solid #2f2f2fc6;
+    border-radius: 50%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#anda h1{
+    font-size: 65px;
+    font-family: "canopee", sans-serif;
+}
+
+#page5{
+    padding: 30px 0;
+    width: 100%;
+    background-color: #C4BCB3;
+}
+
+#page5 h1{
+    font-size: 80px;
+    font-family: "Domaine Dis Cond Medium";
+    font-weight: 500;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding : 35px 0;
+}
+
+#page5 h1 span{
+    font-family: "canopee", sans-serif;
+    background-color: #2f2f2f;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
+
+#page6{
+    height: 100px;
+    width: 100%;
+    background-color: #C4BCB3;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+    color: #31302D;
+}
+
+footer .footer a:link{
+    font-size: 14px;
+    color: #53514C;
+}
+
+footer{
+    color: #2f2f2f;
+    margin: auto;
+    padding: 14px;
+}
